@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ae27c675-e0ef-4db8-87a5-cbf584a9b168" data-root-id="1278"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1365">
+          {"8ea998c0-f256-467d-b06d-5124b98894bf":{"roots":{"references":[{"attributes":{"high":27230,"low":40,"palette":["#5e4fa2","#3288bd","#66c2a5","#abdda4","#e6f598","#fee08b","#fdae61","#f46d43","#d53e4f","#9e0142"]},"id":"1301","type":"LogColorMapper"},{"attributes":{"callback":null},"id":"1281","type":"Range1d"},{"attributes":{"active_drag":null,"active_inspect":"auto","active_multi":null,"active_scroll":{"id":"1310","type":"WheelZoomTool"},"active_tap":"auto","tools":[{"id":"1295","type":"WheelZoomTool"},{"id":"1296","type":"ResetTool"},{"id":"1307","type":"HoverTool"}]},"id":"1297","type":"Toolbar"},{"attributes":{"lat":23.725,"lng":90.35,"styles":"[\n                                        {\n                                            \"stylers\": [\n                                                {\n                                                    \"saturation\": 100\n                                                },\n                                                {\n                                                    \"gamma\": 0.6\n                                                }\n                                            ]\n                                        }\n                                    ]","zoom":7},"id":"1277","type":"GMapOptions"},{"attributes":{"dimension":"lat"},"id":"1290","type":"MercatorTickFormatter"},{"attributes":{"dimension":"lon"},"id":"1286","type":"MercatorTicker"},{"attributes":{"text":"  Bangladesh Confirmed COVID-19 Cases  19-Jun   [Source: IEDCR]","text_font_size":{"value":"9pt"}},"id":"1279","type":"Title"},{"attributes":{},"id":"1314","type":"LinearScale"},{"attributes":{},"id":"1315","type":"UnionRenderers"},{"attributes":{},"id":"1310","type":"WheelZoomTool"},{"attributes":{"data_source":{"id":"1300","type":"ColumnDataSource"},"glyph":{"id":"1303","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1304","type":"Circle"},"selection_glyph":null,"view":{"id":"1306","type":"CDSView"}},"id":"1305","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.6},"fill_color":{"field":"truesize","transform":{"id":"1301","type":"LogColorMapper"}},"line_color":{"value":"royalblue"},"size":{"field":"size","units":"screen"},"x":{"field":"lon"},"y":{"field":"lat"}},"id":"1303","type":"Circle"},{"attributes":{"dimension":"lon"},"id":"1285","type":"MercatorTickFormatter"},{"attributes":{"dimension":"lat"},"id":"1291","type":"MercatorTicker"},{"attributes":{},"id":"1296","type":"ResetTool"},{"attributes":{"formatter":{"id":"1285","type":"MercatorTickFormatter"},"ticker":{"id":"1286","type":"MercatorTicker"}},"id":"1287","type":"LinearAxis"},{"attributes":{"callback":null,"renderers":[{"id":"1305","type":"GlyphRenderer"}],"tooltips":[["\u099c\u09c7\u09b2\u09be:","&lt;font face=\"Arial\" size=\"4\"&gt;@location &lt;/font&gt;"],["\u09ae\u09cb\u099f \u09b6\u09a8\u09be\u0995\u09cd\u09a4:","&lt;font face=\"Arial\" size=\"4\"&gt;@label &lt;/font&gt;"],["\u0995\u09c7\u09b8 \u09ac\u09c7\u09dc\u09c7\u099b\u09c7:"," &lt;font face=\"Arial\" size=\"4\"&gt;@increased &lt;/font&gt;% since Jun-12"]]},"id":"1307","type":"HoverTool"},{"attributes":{"callback":null,"data":{"increased":[77.0,435.0,107.0,140.0,99.0,184.0,56.0,65.0,76.0,60.0,62.0,33.0,48.0,64.0,296.0,73.0,50.0,9.0,72.0,102.0,12.0,23.0,121.0,49.0,180.0,13.0,47.0,55.0,440.0,22.0,20.0,63.0,29.0,553.0,49.0,27.0,43.0,61.0,150.0,35.0,6.0,5.0,23.0,58.0,675.0,38.0,12.0,82.0,28.0,64.0,166.0,479.0,168.0,120.0,38.0,47.0,113.0,140.0,27.0,135.0,48.0,64.0,16.0,149.0],"label":[154,1129,187,125,241,131,111,406,553,5585,2471,1688,609,94,575,1683,116,27230,1023,2511,414,440,1083,468,472,1661,1204,4530,1109,366,140,295,209,379,102,169,314,123,800,307,64,40,73,100,2085,253,239,135,86,270,237,261,492,207,119,71,295,125,765,174,261,191,427,1688],"lat":[22.149540905000002,22.82380962,22.397237779999998,22.56171608,22.258691785,22.51473236,21.77005291,23.95706463,23.244725225,22.423513415000002,23.421761515,21.33263111,23.02090073,23.21044445,22.86312294,22.815921785,22.79609299,23.78322506,23.46624756,24.092392925,23.10671997,24.99966812,24.336873055,23.231163979999998,23.835499765,23.52661705,24.72212601,23.71533775,24.007305145,24.88535595,23.735338210000002,23.228141785,25.09214115,24.375705715,22.408041,23.601387025,23.08486843,23.495005605,22.501589775,23.94281006,23.469608305,23.78840065,23.132341385,22.474517825,24.829842565,25.06322479,24.873167995,24.393265720000002,24.691532135000003,24.08094883,24.415211675000002,24.398750305,25.642594335,25.343470574999998,25.80355644,26.122104645,26.02052784,26.32021618,25.63304901,25.935965539999998,24.336172105000003,24.486777305,24.886467935,24.89030552],"location":["Barguna","Barisal","Bhola","Jhalokati","Patuakhali","Pirojpur","Bandarban","Brahamanbaria","Chandpur","Chittagong","Comilla","Cox'S Bazar","Feni","Khagrachhari","Lakshmipur","Noakhali","Rangamati","Dhaka","Faridpur","Gazipur","Gopalganj","Jamalpur","Kishoreganj","Madaripur","Manikganj","Munshiganj","Mymensingh","Narayanganj","Narsingdi","Netrakona","Rajbari","Shariatpur","Sherpur","Tangail","Bagerhat","Chuadanga","Jessore","Jhenaidah","Khulna","Kushtia","Magura","Meherpur","Narail","Satkhira","Bogra","Joypurhat","Naogaon","Natore","Nawabganj","Pabna","Rajshahi","Sirajganj","Dinajpur","Gaibandha","Kurigram","Lalmonirhat","Nilphamari","Panchagarh","Rangpur","Thakurgaon","Habiganj","Maulvibazar","Sunamganj","Sylhet"],"lon":[89.9725209483166,90.25002875840943,90.76762995684027,90.12547546570411,90.49767270114593,89.9953926345323,92.38619595113772,91.1122197548367,90.80768149618635,91.92721177492555,91.07641036132766,92.09185386764254,91.40197917360061,91.96224023143463,90.85837173499999,91.11937523505279,92.22334151051206,90.35663986626923,89.8718364398411,90.40776228834937,89.86240928140569,89.77782261500553,90.9278576588732,90.13017483480985,89.94155818549976,90.4380906914774,90.4162679321422,90.61697170097055,90.80575236633159,90.79278759706975,89.57524755074654,90.42202219225278,90.09527705678221,90.00162472408915,89.74824248151234,88.8226863930027,89.1258842219726,89.12274831082084,89.3317887496469,89.0249585607202,89.45668230160226,88.70081641297676,89.52866845329848,89.13842167676128,89.3314076813752,89.0908291631531,88.73828017811235,89.09054213432537,88.26089180551915,89.33856710674127,88.59755043635658,89.522994072161,88.7247391364334,89.53627012499561,89.6445052266977,89.16543288790785,88.92202762007618,88.5463624198879,89.26262719593953,88.3119015089258,91.43166194051561,91.88254818908095,91.39011405117466,91.95828109579773],"size":[16.62264717838029,28.75476121638387,17.681108358505586,15.516585231939636,19.105810302351514,15.762274321177092,14.901588361649086,22.179951395880188,24.091296317635383,40.40964747050109,34.26058766118474,31.53210862371438,24.70142134932181,14.05908453416354,24.337286068773697,31.511237289367745,15.12845191851994,53.52552342516767,28.09022542503636,34.37761265055067,22.298687759814854,22.671027272012573,28.47360039230994,23.05079295580047,23.10338912551152,31.41872964962266,29.191740879815914,38.791067167597056,28.63381129542609,21.553281875513026,16.11331672720592,20.274543737826026,18.299974231870667,21.763321577422072,14.470375344016619,17.125869885301363,20.64126108841392,15.432445786016475,26.461151300916065,20.508483406397055,12.193666249635852,10.07534031005228,12.818973123860923,14.370184768222842,33.03288700887068,19.384030831178965,19.058267931261348,15.920767254446037,13.617088135672114,19.759036718658624,19.010376832843768,19.563166571390777,23.360575883125833,18.246116069675274,15.260600532361096,12.685799438731065,20.274543737826026,15.516585231939636,26.169118340815874,17.2850478542607,19.563166571390777,17.79817238103716,22.487369111180225,31.53210862371438],"truesize":[154,1129,187,125,241,131,111,406,553,5585,2471,1688,609,94,575,1683,116,27230,1023,2511,414,440,1083,468,472,1661,1204,4530,1109,366,140,295,209,379,102,169,314,123,800,307,64,40,73,100,2085,253,239,135,86,270,237,261,492,207,119,71,295,125,765,174,261,191,427,1688]},"selected":{"id":"1316","type":"Selection"},"selection_policy":{"id":"1315","type":"UnionRenderers"}},"id":"1300","type":"ColumnDataSource"},{"attributes":{"callback":null},"id":"1280","type":"Range1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"field":"size","units":"screen"},"x":{"field":"lon"},"y":{"field":"lat"}},"id":"1304","type":"Circle"},{"attributes":{},"id":"1295","type":"WheelZoomTool"},{"attributes":{},"id":"1316","type":"Selection"},{"attributes":{"formatter":{"id":"1290","type":"MercatorTickFormatter"},"ticker":{"id":"1291","type":"MercatorTicker"}},"id":"1292","type":"LinearAxis"},{"attributes":{"source":{"id":"1300","type":"ColumnDataSource"}},"id":"1306","type":"CDSView"},{"attributes":{},"id":"1313","type":"LinearScale"},{"attributes":{"api_key":"AIzaSyAey1Yu1srtf7SFDhD7_oAywQSqe1mJjw8","below":[{"id":"1287","type":"LinearAxis"}],"left":[{"id":"1292","type":"LinearAxis"}],"map_options":{"id":"1277","type":"GMapOptions"},"renderers":[{"id":"1305","type":"GlyphRenderer"}],"sizing_mode":"scale_height","title":{"id":"1279","type":"Title"},"toolbar":{"id":"1297","type":"Toolbar"},"x_range":{"id":"1280","type":"Range1d"},"x_scale":{"id":"1314","type":"LinearScale"},"y_range":{"id":"1281","type":"Range1d"},"y_scale":{"id":"1313","type":"LinearScale"}},"id":"1278","subtype":"GMap","type":"GMapPlot"}],"root_ids":["1278"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1365').textContent;
+                  var render_items = [{"docid":"8ea998c0-f256-467d-b06d-5124b98894bf","roots":{"1278":"ae27c675-e0ef-4db8-87a5-cbf584a9b168"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
